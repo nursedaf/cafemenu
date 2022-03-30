@@ -59,10 +59,6 @@
                                         <a>
                                             <figure>
                                                 <img src="<?php echo base_url($row->foto); ?>" data-src="<?php echo base_url($row->foto); ?>" alt="Menu item" />
-                                                <div class="actions">
-                                                    <!-- <i class="icon-magnifier-add"></i> -->
-                                                    <i class="icon-plus" data-click="ekle" data-id="<?php echo $row->id; ?>" data-no="<?php echo $this->session->userdata("masaid"); ?>"></i>
-                                                </div>
                                             </figure>
                                         </a>
                                         <div class="item-description">
